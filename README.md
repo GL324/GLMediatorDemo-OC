@@ -1,5 +1,5 @@
 # GLMediatorDemo-OC
-使用CTMediator作为路由,实现各个framework库文件之间的跳转及参数传递
+使用CTMediator作为路由,实现各个framework库文件之间的跳转及参数传递，以实现组件化开发。
 
 本demo是使用framework实现组件化的一次实践,组件直接使用CTMediator路由进行通信。之所以选用CTMediator，是因为CTMediator对项目侵入性小，且能够传递非常规参数，而且不需要事先注册。对CTMediator感兴趣的同学可以阅读casa大神的这篇博客https://casatwy.com/iOS-Modulization.html ，讲的很详细。
 
