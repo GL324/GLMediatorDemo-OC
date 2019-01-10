@@ -16,7 +16,6 @@
 		694CE4D521DDE3AE00B2F873 /* GLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CE4D421DDE3AE00B2F873 /* GLTabBarViewController.m */; };
 		69CEE71521E5BAFD00519D26 /* CTMediator+MainProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CEE71421E5BAFD00519D26 /* CTMediator+MainProject.m */; };
 		69CEE73621E5DFFA00519D26 /* GLConsultModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE73521E5DFFA00519D26 /* GLConsultModule.framework */; };
-		69CEE73821E5DFFE00519D26 /* GLPatientModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE73721E5DFFE00519D26 /* GLPatientModule.framework */; };
 		69CEE75F21E5EAD400519D26 /* GLUserModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE75E21E5EAD400519D26 /* GLUserModule.framework */; };
 		69CEE77B21E5FAE900519D26 /* GLMessageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE77A21E5FAE900519D26 /* GLMessageModule.framework */; };
 /* End PBXBuildFile section */
@@ -62,7 +61,6 @@
 			files = (
 				69CEE77B21E5FAE900519D26 /* GLMessageModule.framework in Frameworks */,
 				69CEE75F21E5EAD400519D26 /* GLUserModule.framework in Frameworks */,
-				69CEE73821E5DFFE00519D26 /* GLPatientModule.framework in Frameworks */,
 				69CEE73621E5DFFA00519D26 /* GLConsultModule.framework in Frameworks */,
 				49501AE2F9992EC146ADAAC0 /* libPods-GLMediatorDemo-OC.a in Frameworks */,
 			);
