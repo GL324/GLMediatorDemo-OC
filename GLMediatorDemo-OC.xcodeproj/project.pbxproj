@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49501AE2F9992EC146ADAAC0 /* libPods-GLMediatorDemo-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BA1F5AE00204A574AEF659 /* libPods-GLMediatorDemo-OC.a */; };
+		694CE4BF21DDE2FC00B2F873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CE4BE21DDE2FC00B2F873 /* AppDelegate.m */; };
+		694CE4C521DDE2FC00B2F873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694CE4C321DDE2FC00B2F873 /* Main.storyboard */; };
+		694CE4C721DDE2FF00B2F873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694CE4C621DDE2FF00B2F873 /* Assets.xcassets */; };
+		694CE4CA21DDE2FF00B2F873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694CE4C821DDE2FF00B2F873 /* LaunchScreen.storyboard */; };
+		694CE4CD21DDE2FF00B2F873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CE4CC21DDE2FF00B2F873 /* main.m */; };
+		694CE4D521DDE3AE00B2F873 /* GLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CE4D421DDE3AE00B2F873 /* GLTabBarViewController.m */; };
+		69CEE71521E5BAFD00519D26 /* CTMediator+MainProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CEE71421E5BAFD00519D26 /* CTMediator+MainProject.m */; };
+		69CEE73621E5DFFA00519D26 /* GLConsultModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE73521E5DFFA00519D26 /* GLConsultModule.framework */; };
+		69CEE73821E5DFFE00519D26 /* GLPatientModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE73721E5DFFE00519D26 /* GLPatientModule.framework */; };
+		69CEE75F21E5EAD400519D26 /* GLUserModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE75E21E5EAD400519D26 /* GLUserModule.framework */; };
+		69CEE77B21E5FAE900519D26 /* GLMessageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CEE77A21E5FAE900519D26 /* GLMessageModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0762C4F99C02963D9C2DD313 /* Pods-GLMediatorDemo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMediatorDemo-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLMediatorDemo-OC/Pods-GLMediatorDemo-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		66BA1F5AE00204A574AEF659 /* libPods-GLMediatorDemo-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLMediatorDemo-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F87333AE722B424C16E501 /* Pods-GLMediatorDemo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMediatorDemo-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLMediatorDemo-OC/Pods-GLMediatorDemo-OC.release.xcconfig"; sourceTree = "<group>"; };
+		694CE4BA21DDE2FC00B2F873 /* GLMediatorDemo-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLMediatorDemo-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		694CE4BD21DDE2FC00B2F873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		694CE4BE21DDE2FC00B2F873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		694CE4C421DDE2FC00B2F873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		694CE4C621DDE2FF00B2F873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		694CE4C921DDE2FF00B2F873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		694CE4CB21DDE2FF00B2F873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694CE4CC21DDE2FF00B2F873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		694CE4D321DDE3AE00B2F873 /* GLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTabBarViewController.h; sourceTree = "<group>"; };
+		694CE4D421DDE3AE00B2F873 /* GLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTabBarViewController.m; sourceTree = "<group>"; };
+		694CE55821DDE9D700B2F873 /* GLConsultModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLConsultModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694CE55A21DDE9DE00B2F873 /* GLPatientModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLPatientModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694CE55C21DDE9E200B2F873 /* GLUserModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLUserModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE71321E5BAFD00519D26 /* CTMediator+MainProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MainProject.h"; sourceTree = "<group>"; };
+		69CEE71421E5BAFD00519D26 /* CTMediator+MainProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MainProject.m"; sourceTree = "<group>"; };
+		69CEE72521E5CC7800519D26 /* GLConsultModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLConsultModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE72721E5CC7D00519D26 /* GLPatientModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLPatientModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE72921E5CC8100519D26 /* GLUserModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLUserModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE72B21E5D0F900519D26 /* GLConsultModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLConsultModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE72D21E5D12100519D26 /* GLPatientModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLPatientModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE72F21E5D16400519D26 /* GLConsultModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLConsultModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE73121E5D16800519D26 /* GLPatientModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLPatientModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE73321E5D16C00519D26 /* GLUserModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLUserModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE73521E5DFFA00519D26 /* GLConsultModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLConsultModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE73721E5DFFE00519D26 /* GLPatientModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLPatientModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE73921E5E00100519D26 /* GLUserModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLUserModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE75E21E5EAD400519D26 /* GLUserModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLUserModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE77A21E5FAE900519D26 /* GLMessageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GLMessageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		694CE4B721DDE2FC00B2F873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CEE77B21E5FAE900519D26 /* GLMessageModule.framework in Frameworks */,
+				69CEE75F21E5EAD400519D26 /* GLUserModule.framework in Frameworks */,
+				69CEE73821E5DFFE00519D26 /* GLPatientModule.framework in Frameworks */,
+				69CEE73621E5DFFA00519D26 /* GLConsultModule.framework in Frameworks */,
+				49501AE2F9992EC146ADAAC0 /* libPods-GLMediatorDemo-OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B40EC2013405769B5404DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CEE77A21E5FAE900519D26 /* GLMessageModule.framework */,
+				69CEE75E21E5EAD400519D26 /* GLUserModule.framework */,
+				69CEE73921E5E00100519D26 /* GLUserModule.framework */,
+				69CEE73721E5DFFE00519D26 /* GLPatientModule.framework */,
+				69CEE73521E5DFFA00519D26 /* GLConsultModule.framework */,
+				69CEE73321E5D16C00519D26 /* GLUserModule.framework */,
+				69CEE73121E5D16800519D26 /* GLPatientModule.framework */,
+				69CEE72F21E5D16400519D26 /* GLConsultModule.framework */,
+				69CEE72D21E5D12100519D26 /* GLPatientModule.framework */,
+				69CEE72B21E5D0F900519D26 /* GLConsultModule.framework */,
+				69CEE72921E5CC8100519D26 /* GLUserModule.framework */,
+				69CEE72721E5CC7D00519D26 /* GLPatientModule.framework */,
+				69CEE72521E5CC7800519D26 /* GLConsultModule.framework */,
+				694CE55C21DDE9E200B2F873 /* GLUserModule.framework */,
+				694CE55A21DDE9DE00B2F873 /* GLPatientModule.framework */,
+				694CE55821DDE9D700B2F873 /* GLConsultModule.framework */,
+				66BA1F5AE00204A574AEF659 /* libPods-GLMediatorDemo-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		694CE4B121DDE2FC00B2F873 = {
+			isa = PBXGroup;
+			children = (
+				694CE4BC21DDE2FC00B2F873 /* GLMediatorDemo-OC */,
+				694CE4BB21DDE2FC00B2F873 /* Products */,
+				BBFC790566D7265D2C9BC1D1 /* Pods */,
+				51B40EC2013405769B5404DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		694CE4BB21DDE2FC00B2F873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694CE4BA21DDE2FC00B2F873 /* GLMediatorDemo-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694CE4BC21DDE2FC00B2F873 /* GLMediatorDemo-OC */ = {
+			isa = PBXGroup;
+			children = (
+				69CEE70F21E5BA4700519D26 /* Mediator_Category */,
+				694CE4BD21DDE2FC00B2F873 /* AppDelegate.h */,
+				694CE4BE21DDE2FC00B2F873 /* AppDelegate.m */,
+				694CE4D321DDE3AE00B2F873 /* GLTabBarViewController.h */,
+				694CE4D421DDE3AE00B2F873 /* GLTabBarViewController.m */,
+				694CE4C321DDE2FC00B2F873 /* Main.storyboard */,
+				694CE4C621DDE2FF00B2F873 /* Assets.xcassets */,
+				694CE4C821DDE2FF00B2F873 /* LaunchScreen.storyboard */,
+				694CE4CB21DDE2FF00B2F873 /* Info.plist */,
+				694CE4CC21DDE2FF00B2F873 /* main.m */,
+			);
+			path = "GLMediatorDemo-OC";
+			sourceTree = "<group>";
+		};
+		69CEE70F21E5BA4700519D26 /* Mediator_Category */ = {
+			isa = PBXGroup;
+			children = (
+				69CEE71321E5BAFD00519D26 /* CTMediator+MainProject.h */,
+				69CEE71421E5BAFD00519D26 /* CTMediator+MainProject.m */,
+			);
+			path = Mediator_Category;
+			sourceTree = "<group>";
+		};
+		BBFC790566D7265D2C9BC1D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0762C4F99C02963D9C2DD313 /* Pods-GLMediatorDemo-OC.debug.xcconfig */,
+				67F87333AE722B424C16E501 /* Pods-GLMediatorDemo-OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		694CE4B921DDE2FC00B2F873 /* GLMediatorDemo-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694CE4D021DDE2FF00B2F873 /* Build configuration list for PBXNativeTarget "GLMediatorDemo-OC" */;
+			buildPhases = (
+				F1EA094E96D037DD6EB602E1 /* [CP] Check Pods Manifest.lock */,
+				694CE4B621DDE2FC00B2F873 /* Sources */,
+				694CE4B721DDE2FC00B2F873 /* Frameworks */,
+				694CE4B821DDE2FC00B2F873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLMediatorDemo-OC";
+			productName = "GLMediatorDemo-OC";
+			productReference = 694CE4BA21DDE2FC00B2F873 /* GLMediatorDemo-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		694CE4B221DDE2FC00B2F873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = guolei;
+				TargetAttributes = {
+					694CE4B921DDE2FC00B2F873 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 694CE4B521DDE2FC00B2F873 /* Build configuration list for PBXProject "GLMediatorDemo-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 694CE4B121DDE2FC00B2F873;
+			productRefGroup = 694CE4BB21DDE2FC00B2F873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694CE4B921DDE2FC00B2F873 /* GLMediatorDemo-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		694CE4B821DDE2FC00B2F873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694CE4CA21DDE2FF00B2F873 /* LaunchScreen.storyboard in Resources */,
+				694CE4C721DDE2FF00B2F873 /* Assets.xcassets in Resources */,
+				694CE4C521DDE2FC00B2F873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1EA094E96D037DD6EB602E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLMediatorDemo-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		694CE4B621DDE2FC00B2F873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694CE4D521DDE3AE00B2F873 /* GLTabBarViewController.m in Sources */,
+				694CE4CD21DDE2FF00B2F873 /* main.m in Sources */,
+				694CE4BF21DDE2FC00B2F873 /* AppDelegate.m in Sources */,
+				69CEE71521E5BAFD00519D26 /* CTMediator+MainProject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		694CE4C321DDE2FC00B2F873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694CE4C421DDE2FC00B2F873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		694CE4C821DDE2FF00B2F873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694CE4C921DDE2FF00B2F873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		694CE4CE21DDE2FF00B2F873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		694CE4CF21DDE2FF00B2F873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		694CE4D121DDE2FF00B2F873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0762C4F99C02963D9C2DD313 /* Pods-GLMediatorDemo-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CTMediator\"",
+				);
+				INFOPLIST_FILE = "GLMediatorDemo-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CTMediator\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GL.GLMediatorDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		694CE4D221DDE2FF00B2F873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F87333AE722B424C16E501 /* Pods-GLMediatorDemo-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CTMediator\"",
+				);
+				INFOPLIST_FILE = "GLMediatorDemo-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CTMediator\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GL.GLMediatorDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		694CE4B521DDE2FC00B2F873 /* Build configuration list for PBXProject "GLMediatorDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694CE4CE21DDE2FF00B2F873 /* Debug */,
+				694CE4CF21DDE2FF00B2F873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694CE4D021DDE2FF00B2F873 /* Build configuration list for PBXNativeTarget "GLMediatorDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694CE4D121DDE2FF00B2F873 /* Debug */,
+				694CE4D221DDE2FF00B2F873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 694CE4B221DDE2FC00B2F873 /* Project object */;
+}

@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CEE77421E5FA6600519D26 /* GLMessageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CEE77221E5FA6600519D26 /* GLMessageModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69CEE77E21E5FB3A00519D26 /* GLMessageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CEE77C21E5FB3A00519D26 /* GLMessageViewController.h */; };
+		69CEE77F21E5FB3A00519D26 /* GLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CEE77D21E5FB3A00519D26 /* GLMessageViewController.m */; };
+		69CEE78321E5FBC100519D26 /* Target_MessageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CEE78121E5FBC100519D26 /* Target_MessageModule.h */; };
+		69CEE78421E5FBC100519D26 /* Target_MessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CEE78221E5FBC100519D26 /* Target_MessageModule.m */; };
+		69D599CE21E6E93C00548FDA /* CTMediator+MessageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D599CC21E6E93C00548FDA /* CTMediator+MessageModule.h */; };
+		69D599CF21E6E93C00548FDA /* CTMediator+MessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D599CD21E6E93C00548FDA /* CTMediator+MessageModule.m */; };
+		7C8A5A83F98C448056BDBFE8 /* libPods-GLMessageModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11137315FA3B1E0D2F3021E4 /* libPods-GLMessageModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010EE1C71CCD657EA0CB3F52 /* Pods-GLMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMessageModule.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GLMessageModule/Pods-GLMessageModule.release.xcconfig"; sourceTree = "<group>"; };
+		11137315FA3B1E0D2F3021E4 /* libPods-GLMessageModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLMessageModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DA58E37F64E9737A32AD20 /* Pods-GLMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMessageModule.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GLMessageModule/Pods-GLMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
+		69CEE76F21E5FA6600519D26 /* GLMessageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLMessageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CEE77221E5FA6600519D26 /* GLMessageModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMessageModule.h; sourceTree = "<group>"; };
+		69CEE77321E5FA6600519D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CEE77C21E5FB3A00519D26 /* GLMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMessageViewController.h; sourceTree = "<group>"; };
+		69CEE77D21E5FB3A00519D26 /* GLMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMessageViewController.m; sourceTree = "<group>"; };
+		69CEE78121E5FBC100519D26 /* Target_MessageModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_MessageModule.h; sourceTree = "<group>"; };
+		69CEE78221E5FBC100519D26 /* Target_MessageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_MessageModule.m; sourceTree = "<group>"; };
+		69D599CC21E6E93C00548FDA /* CTMediator+MessageModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MessageModule.h"; sourceTree = "<group>"; };
+		69D599CD21E6E93C00548FDA /* CTMediator+MessageModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MessageModule.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CEE76C21E5FA6500519D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8A5A83F98C448056BDBFE8 /* libPods-GLMessageModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C6E1002E1C31F92A932C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38DA58E37F64E9737A32AD20 /* Pods-GLMessageModule.debug.xcconfig */,
+				010EE1C71CCD657EA0CB3F52 /* Pods-GLMessageModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69CEE76521E5FA6500519D26 = {
+			isa = PBXGroup;
+			children = (
+				69CEE77121E5FA6600519D26 /* GLMessageModule */,
+				69CEE77021E5FA6600519D26 /* Products */,
+				25C6E1002E1C31F92A932C72 /* Pods */,
+				8FF8C8D5C75756BA86804F12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69CEE77021E5FA6600519D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CEE76F21E5FA6600519D26 /* GLMessageModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CEE77121E5FA6600519D26 /* GLMessageModule */ = {
+			isa = PBXGroup;
+			children = (
+				69D599CB21E6E91600548FDA /* Mediator_Category */,
+				69CEE78021E5FBA000519D26 /* Target_Module */,
+				69CEE77221E5FA6600519D26 /* GLMessageModule.h */,
+				69CEE77C21E5FB3A00519D26 /* GLMessageViewController.h */,
+				69CEE77D21E5FB3A00519D26 /* GLMessageViewController.m */,
+				69CEE77321E5FA6600519D26 /* Info.plist */,
+			);
+			path = GLMessageModule;
+			sourceTree = "<group>";
+		};
+		69CEE78021E5FBA000519D26 /* Target_Module */ = {
+			isa = PBXGroup;
+			children = (
+				69CEE78121E5FBC100519D26 /* Target_MessageModule.h */,
+				69CEE78221E5FBC100519D26 /* Target_MessageModule.m */,
+			);
+			path = Target_Module;
+			sourceTree = "<group>";
+		};
+		69D599CB21E6E91600548FDA /* Mediator_Category */ = {
+			isa = PBXGroup;
+			children = (
+				69D599CC21E6E93C00548FDA /* CTMediator+MessageModule.h */,
+				69D599CD21E6E93C00548FDA /* CTMediator+MessageModule.m */,
+			);
+			path = Mediator_Category;
+			sourceTree = "<group>";
+		};
+		8FF8C8D5C75756BA86804F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11137315FA3B1E0D2F3021E4 /* libPods-GLMessageModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69CEE76A21E5FA6500519D26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CEE78321E5FBC100519D26 /* Target_MessageModule.h in Headers */,
+				69CEE77E21E5FB3A00519D26 /* GLMessageViewController.h in Headers */,
+				69D599CE21E6E93C00548FDA /* CTMediator+MessageModule.h in Headers */,
+				69CEE77421E5FA6600519D26 /* GLMessageModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69CEE76E21E5FA6500519D26 /* GLMessageModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CEE77721E5FA6600519D26 /* Build configuration list for PBXNativeTarget "GLMessageModule" */;
+			buildPhases = (
+				60F1E01A47AB70F718792F93 /* [CP] Check Pods Manifest.lock */,
+				69CEE76A21E5FA6500519D26 /* Headers */,
+				69CEE76B21E5FA6500519D26 /* Sources */,
+				69CEE76C21E5FA6500519D26 /* Frameworks */,
+				69CEE76D21E5FA6500519D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLMessageModule;
+			productName = GLMessageModule;
+			productReference = 69CEE76F21E5FA6600519D26 /* GLMessageModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CEE76621E5FA6500519D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = guolei;
+				TargetAttributes = {
+					69CEE76E21E5FA6500519D26 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 69CEE76921E5FA6500519D26 /* Build configuration list for PBXProject "GLMessageModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69CEE76521E5FA6500519D26;
+			productRefGroup = 69CEE77021E5FA6600519D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CEE76E21E5FA6500519D26 /* GLMessageModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CEE76D21E5FA6500519D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60F1E01A47AB70F718792F93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLMessageModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CEE76B21E5FA6500519D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CEE78421E5FBC100519D26 /* Target_MessageModule.m in Sources */,
+				69D599CF21E6E93C00548FDA /* CTMediator+MessageModule.m in Sources */,
+				69CEE77F21E5FB3A00519D26 /* GLMessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69CEE77521E5FA6600519D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69CEE77621E5FA6600519D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69CEE77821E5FA6600519D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DA58E37F64E9737A32AD20 /* Pods-GLMessageModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GLMessageModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GL.GLMessageModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CEE77921E5FA6600519D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010EE1C71CCD657EA0CB3F52 /* Pods-GLMessageModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GLMessageModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GL.GLMessageModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CEE76921E5FA6500519D26 /* Build configuration list for PBXProject "GLMessageModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CEE77521E5FA6600519D26 /* Debug */,
+				69CEE77621E5FA6600519D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CEE77721E5FA6600519D26 /* Build configuration list for PBXNativeTarget "GLMessageModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CEE77821E5FA6600519D26 /* Debug */,
+				69CEE77921E5FA6600519D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CEE76621E5FA6500519D26 /* Project object */;
+}
